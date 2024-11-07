@@ -1,0 +1,46 @@
+@import './fonts.css';
+
+body{
+    width: 1920px;
+    font-family: Roboto;
+}
+
+.header {
+    width: 680px;
+    height: 80px;
+
+}
+
+.main{
+
+}
+
+.block {
+
+}
+
+.title {
+
+}
+
+.text {
+
+}
+
+.logo-container{
+display: inline-block;   
+
+}
+
+
+.logo-title {
+
+}
+
+.button {
+width: 193px; ;
+height: 52px;border-radius: 5px;
+background-color: #FFFFFF;
+;
+border: none;
+}
