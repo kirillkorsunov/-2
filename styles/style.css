@@ -1,14 +1,27 @@
 @import './fonts.css';
 
-body{
+.body {
     width: 1920px;
     font-family: Roboto;
+    
 }
 
 .header {
+    margin-top: 20px;
+    height: 867px;
+    background: url("../images/header-background.jpg") no-repeat right;
+
+}
+.header-label{
     width: 680px;
     height: 80px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container{
+padding: 0 340px;    
 }
 
 .main{
@@ -37,10 +50,15 @@ display: inline-block;
 
 }
 
-.button {
-width: 193px; ;
+.button{ 
+    width: 193px; ;
 height: 52px;border-radius: 5px;
 background-color: #FFFFFF;
-;
 border: none;
+cursor: pointer;
+border-radius: 5px;
+font-weight: 400px;
+font-size: 24px;
+
+
 }
