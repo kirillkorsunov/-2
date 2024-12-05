@@ -1,9 +1,11 @@
 @import './fonts.css';
 
 .body {
-    width: 1920px;
+    width: 100vw;
+    height: 100vh;
     font-family: Roboto;
-    
+    margin: 0;
+    color: #000000;
 }
 
 .header {
@@ -12,7 +14,12 @@
     background: url("../images/header-background.jpg") no-repeat right;
 
 }
-.header-label{
+
+h1, h2 {
+    margin: 0;
+}
+
+.header-label {
     width: 680px;
     height: 80px;
     display: flex;
@@ -20,11 +27,12 @@
     align-items: center;
     
 }
-.container{
-padding: 0 340px;    
+
+.container {
+    padding: 0 340px;    
 }
 
-.main{
+.main {
 
 }
 
@@ -40,8 +48,8 @@ padding: 0 340px;
 
 }
 
-.logo-container{
-display: inline-block;   
+.logo-container {
+display: inline-block ; 
 
 }
 
@@ -61,4 +69,27 @@ font-weight: 400px;
 font-size: 24px;
 
 
+}
+.title {
+    font-weight: 500px;
+    font-size: 64px;
+    line-height: 75px;
+
+}
+
+.header-title {
+    margin-top: 225px;
+    font-weight: 700px;
+    
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 24px;
+
+}
+.header-subtitle {
+    margin-top: 20px;
+   
+    
 }
