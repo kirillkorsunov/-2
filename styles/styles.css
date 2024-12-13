@@ -1,0 +1,160 @@
+@import './fonts.css';
+
+body {
+    
+    width: 100vw;
+    height: 100vh;
+    font-family: "Roboto", serif;
+    margin: 0;
+    color: #000000;
+}
+ button{
+    font-family: Roboto;
+    border: none;
+    cursor: pointer;
+ }
+ 
+ .container {
+    padding: 0 340px;    
+}
+
+.header {
+    overflow: hidden;
+    height: 867px;
+    background: url("../images/header-background.jpg") no-repeat right;
+
+}
+
+h1 ,h2 {
+    margin: 0;
+}
+
+.header-label {
+    margin-top: 20px;
+    width: 680px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+.main {
+
+}
+
+.block {
+
+}
+
+
+.text {
+
+}
+
+.logo-container {
+display: inline-block ; 
+
+}
+
+
+.logo-title {
+
+}
+
+.button{ 
+    width: 193px; ;
+height: 52px;border-radius: 5px;
+background-color: #FFFFFF;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+font-weight: 400px;
+font-size: 24px;
+
+
+}
+.title {
+    font-weight: 500px;
+    font-size: 64px;
+    line-height: 75px;
+
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.header .title {
+    margin-top: 225px;
+    font-weight: 700px;
+}
+
+.header .subtitle {
+    margin-top: 20px;
+}
+
+.subtitle span {
+   font-weight: 700;
+}
+.courier-button {
+    margin-top: 48px;
+    width: 398px;
+    height: 77px;
+    border-radius: 5px; 
+    background-color: #F9E059;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.delivery {
+    margin-top: 24px;
+    color: #656565;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.advantages {
+    margin-top: 120px;  
+}
+
+.advantages-block {
+    margin-top: 20px;
+    padding: 20px 0 0 20px;
+    height:200px;
+    border-radius: 16px;
+    background-color: #EDEFF1;
+    
+}
+
+.advantages-block:last-child {
+    margin-left: 20px;
+
+}
+
+.advantages-title {
+    font-weight: 500;
+    font-size: 30px;
+
+}
+
+.advantages-text {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.botton-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-block .advantages-block {
+
+}
