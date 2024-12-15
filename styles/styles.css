@@ -1,5 +1,8 @@
 @import './fonts.css';
 
+*{
+    box-sizing:border-box ;
+}
 body {
     
     width: 100vw;
@@ -124,17 +127,13 @@ font-size: 24px;
 }
 
 .advantages-block {
-    margin-top: 20px;
+    position: relative;
     padding: 20px 0 0 20px;
     height:200px;
     border-radius: 16px;
     background-color: #EDEFF1;
-    
-}
-
-.advantages-block:last-child {
-    margin-left: 20px;
-
+    flex: 1;
+    overflow: hidden;
 }
 
 .advantages-title {
@@ -150,11 +149,61 @@ font-size: 24px;
 
 }
 
-.botton-blocks {
+.advantages-content {
+    margin-top: 48px;
+    display: flex; 
+    flex-wrap:wrap ;
+    gap: 20px;
+ }
+
+ .advantages-block:first-child {
+    flex-basis: 100%;
+    background-color: #F9E059;
+    ;
+ }
+ .advantages-image {
+    position: absolute;
+    right :0;
+    top: 0;
+    
+ }
+
+ .couriers {
+    margin-top:120px ;
+
+ }
+ .slider {
+    margin-top:48px ;
+ }
+ 
+ .slider-content {
     display: flex;
-    justify-content: space-between;
-}
+column-gap: 20px;
+ }
+ .slider-block :not(:first-child){
+    margin-left: 20px;
+ }
+ .slider-image {
+    border-radius: 5px;
+ }
+ .slider-text-wrapper {
+    height: 172px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:#EDEFF1 ;
+ }
+ .slider-title {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Roboto;
+    letter-spacing: -0.44px;
 
-.advantages-block .advantages-block {
-
-}
+ }
+ .slider-text {
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #656565;
+    letter-spacing:-0.44px;
+ }
